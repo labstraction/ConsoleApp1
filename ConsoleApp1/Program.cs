@@ -1,7 +1,17 @@
-﻿internal class Program
+﻿using ConsoleApp1;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Test();
+        Class1 class1 = new Class1();
+        class1.Test();
+    }
+
+
+    private static void Test()
+    {
+        Console.WriteLine("Test");
     }
 }
